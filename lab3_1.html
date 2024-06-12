@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>  
+<meta charset="utf-8">
+    <link  rel="stylesheet" href="D:\мдк\style_class (1).css">
+<html>
+<title>Формы</title>
+<body>
+    <div class="fon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320"><path fill="rgb(27, 5, 39)" fill-opacity="1" d="M0,32L40,80C80,128,160,224,240,245.3C320,267,400,213,480,202.7C560,192,640,224,720,245.3C800,267,880,277,960,282.7C1040,288,1120,288,1200,272C1280,256,1360,224,1400,208L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+    <div class="reg_pole1">
+        <p class="reg">Регистрация</p>
+        <form action="file.php" name="form1">
+            <label for="pole1" class="teta">Имя:</label>
+            <input type="text" name="pole1" class="pole">
+             <br>
+            <label for="pole2" class="teta">Фамилия:</label>
+            <input type="text" name="pole2" class="pole">
+            <br>
+            <label for="pole3" class="teta">Отчество:</label>
+            <input type="text" name="pole3" class="pole">
+            <br>
+            <label for="radio1" class="teta">Пол: Жен</label>
+            <input type="radio" name="radio1" value="yes">
+            <label for="radio1" class="teta">Муж</label>
+            <input type="radio" name="radio1" value="no">
+            <br>
+            <label for="year" class="teta">Год:</label>
+            <select name="year" class="pole">
+                <option>Выберите год рождения</option>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+                <option>2005</option>
+                <option>2006</option>
+                <option>2007</option>
+            </select>
+            <br>
+            <label for="country" class="teta">Город:</label>
+            <select name="contry" class="pole">
+                <option>Выберите город</option>
+                <option>Москва</option>
+                <option>Санкт-Петербург</option>
+                <option>Тверь</option>
+                <option>Владивосток</option>
+                <option>Ростов-на-Дону</option>
+            </select>
+            <!-- <br>
+     <label for="hob" class="teta">Ваши хобби:</label>
+     <textarea name="hob" cols="17" rows="3" class="pole"></textarea>-->
+            <br>
+            <label for="pass1" class="teta">Пароль:</label>
+            <input type="password" name="pass1" id="pass1" class="pole">
+            <br>
+            <input type="checkbox" name="check1" value="yes">
+            <label for="checkbox" class="tetatet">Я согласен с правилами пользования</label>
+            <br>
+            <input type="submit" value="Отправить" class="pole">
+            <input type="reset" value="Сброс" class="sbros">
+        </form>
+</div>
+</div>
+</body>
+</html>
+
+
